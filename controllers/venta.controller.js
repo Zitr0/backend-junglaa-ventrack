@@ -1,5 +1,5 @@
 'use strict'
-const Venta = require('../models/Venta.model.js')
+const Venta = require('../models/venta.model.js')
 
 function getVentas(req, res){
     Venta.find({}, (error, ventas)=>{
